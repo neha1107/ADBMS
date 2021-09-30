@@ -1,0 +1,88 @@
+
+/*Site Navigation*/
+.site-nav ul
+/*space from the window*/
+{
+    margin: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    height:100px;
+    background-color: whitesmoke;
+    box-sizing: border-box; 
+    border-radius: 30px;
+}
+/*Alignment wrt to window, space btwn elements*/
+.site-nav li
+{
+    list-style: none;
+    float: left;
+    margin-right: 110px;  
+   }
+/*font color & size*/
+.site-nav a
+{
+   color:black;
+   font-size: 50px;
+   font-family: 'Times New Roman', Times, serif;
+}
+/*Site Navigation*/
+.head
+{
+    text-align: center;
+    font-size: 50px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+
+}
+/*Table style*/
+
+table{
+    border-spacing: 0;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 40px;
+    align-self: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
+.serialno
+{
+    width:5%;
+}
+
+.name,
+.email,
+.phone,
+.address{
+    width:20%;
+}
+table th
+{
+    text-align: center;
+    background: #FF416C;
+	background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C);
+	background: linear-gradient(to right, #FF4B2B, #FF416C);
+    color: white;
+    font-size: 35px;
+}
+table th,
+table td
+{
+    border: 2px solid black;
+    padding: 10px;
+    text-align:center;
+}
+
+table td
+{
+    font-size: 30px;
+
+}
+table tr
+{
+    background-color: whitesmoke;    
+}
+
+
